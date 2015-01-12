@@ -1,0 +1,127 @@
+/* CSS RESETS */
+
+body,h1, hr, li {
+	margin: 0px;
+	padding:0px;
+}
+
+/* Layout */
+
+body {
+	background-color: #ccc;
+}
+
+.website {	
+	width: 900px;
+	height: 2500px;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	margin: 100px auto 0px auto;
+}
+
+/* Boxen */
+
+.box1 {
+	height: 95px;
+	width: 900px;
+}
+
+.box2 {
+	height: 53px;
+	width: 900px;
+	margin-top: 7px;
+}
+
+.box3 {
+	height: 95px;
+	width: 900px;
+	margin-top: 3px;
+}
+
+/* Navigation */
+
+#nav {
+	width: 600px;
+   padding-top:30px;               /* Außenabstand oben   */
+   padding-left:303.91px;           /* Außenabstand links  */
+}
+ 
+#nav ul {
+   list-style:none;               /* keine Aufzählungspunkte */
+}
+ 
+#nav li { 
+   display: inline;				/* Listenelemente nebeneinander */
+   float:left;                  /* Anordnung links   */
+   font-family: DINPro;
+   font-weight: normal;
+   font-size: 16pt;
+   color: black;
+   text-decoration: none;
+   padding: 8px 9px;
+} 
+
+/* Jahr auswählen */
+
+#years {
+	width: 600px;
+   text-align:left;               /* Textausrichtung     */
+   padding-top:1px;               /* Außenabstand oben   */
+   padding-left:305.9px;           /* Außenabstand links  */
+}
+ 
+#years ul {
+   list-style:none;               /* keine Aufzählungspunkte */
+}
+ 
+#years li { 
+   float:top;                     /* Anordnung links   */
+   width:80px;                     /* Breite des Links  */
+   font-family: DINPro;
+   font-weight: normal;
+   font-size: 16pt;
+  
+} 
+
+/* Striche */
+
+hr {
+	border: none;
+	border-top: 1px solid;
+	color: rgb(31,80,128);
+	background-color: #fff;
+	width: 800px;
+	height: 1px;
+	margin-left: 100px;
+	margin-top: 6.5px;
+
+}
+
+.Strich2 { 
+	hr{
+	border: none;
+	border-top: 1px solid;
+	color: rgb(31,80,128);
+	background-color: #fff;
+	width: 800px;
+	height: 1px;
+	margin-left: 170px;
+	margin-bottom: 6.5px;}
+}
+
+/* TYPO */
+
+h1 {
+	color: black;
+	text-align: left;
+	font-size: 48pt;
+	font-family: DINPro;
+	font-weight: normal;
+	padding-left: 200px;
+	padding-top: 52px;
+
+}
+
+
+
+
