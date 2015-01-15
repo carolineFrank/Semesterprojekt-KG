@@ -1,6 +1,6 @@
 /* CSS RESETS */
 
-body,h1, hr, li {
+body,h1, hr, li, ul {
 	margin: 0px;
 	padding:0px;
 }
@@ -9,104 +9,179 @@ body,h1, hr, li {
 
 body {
 	background-color: #ccc;
+	width: 1200px;
+	height: 2050px;
 }
 
 .website {	
 	width: 900px;
-	height: 2500px;
+	height: 2000px;
+	float: center;
 	background-color: #fff;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-	margin: 100px auto 0px auto;
+	margin: 10px auto 0px auto;
 }
 
 /* Boxen */
 
-.box1 {
-	height: 95px;
+.box1 {						/* Überschrift und erster Strich*/
+	height: 105px;
 	width: 900px;
+	margin: 0px 0px 0px 0px;
 }
 
-.box2 {
-	height: 53px;
-	width: 900px;
-	margin-top: 7px;
-}
-
-.box3 {
-	height: 95px;
+.box2 {						/* Navigation 1 und zweiter Strich*/
+	height: 47px;
 	width: 900px;
 	margin-top: 3px;
 }
 
-/* Navigation */
-
-#nav {
-	width: 600px;
-   padding-top:30px;               /* Außenabstand oben   */
-   padding-left:303.91px;           /* Außenabstand links  */
+.box3 {					    /* Navigation 2 */
+	height: 62px;
+	width: 900px;
+	margin-top: 3px;
 }
+
+.box4 {
+	height: 220px;
+	width: 900px;
+	margin-top: 10px;
+}
+
+
+/* Striche */
+
+.Strich1 {
+	border: none;
+	border-top: 1px solid;
+	color: rgb(31,80,128);
+	background-color: none;
+	width: 800px;
+	height: 1px;
+	margin-left: 100px;
+	padding-top: 12.672px;
+
+}
+
+.Strich2 {
+	border: none;
+	border-top: 1px solid;
+	color: rgb(31,80,128);
+	background-color: none;
+	width: 750px;
+	height: 1px;
+	margin-left: 150px;
+	padding-bottom: 6.5px;}
+}
+
+/* Navigation Themen*/
+
+#nav {}
  
 #nav ul {
-   list-style:none;               /* keine Aufzählungspunkte */
+   list-style:none;         /* keine Aufzählungspunkte */
+   padding-left: 295px;
+   padding-top: 22px;
+   padding-bottom: 13px;
 }
  
-#nav li { 
+#nav li a { 
    display: inline;				/* Listenelemente nebeneinander */
    float:left;                  /* Anordnung links   */
    font-family: DINPro;
    font-weight: normal;
-   font-size: 16pt;
+   font-size: 14pt;
    color: black;
    text-decoration: none;
-   padding: 8px 9px;
+   background-color: rgb(240,240,240);
+   margin: 12px 15px 13px 15px;
+   padding: 4px 8px 4px 8px;
 } 
 
-/* Jahr auswählen */
-
-#years {
-	width: 600px;
-   text-align:left;               /* Textausrichtung     */
-   padding-top:1px;               /* Außenabstand oben   */
-   padding-left:305.9px;           /* Außenabstand links  */
-}
- 
-#years ul {
-   list-style:none;               /* keine Aufzählungspunkte */
-}
- 
-#years li { 
-   float:top;                     /* Anordnung links   */
-   width:80px;                     /* Breite des Links  */
+#nav li a:hover { 
+   display: inline;				/* Listenelemente nebeneinander */
+   float:left;                  /* Anordnung links   */
    font-family: DINPro;
    font-weight: normal;
-   font-size: 16pt;
-  
+   font-size: 14pt;
+   color: rgb(31,80,128);
+   text-decoration: none;
+   padding: 4px 8px 4px 8px;
 } 
 
-/* Striche */
+/* Navigation Jahre*/
 
-hr {
-	border: none;
-	border-top: 1px solid;
-	color: rgb(31,80,128);
-	background-color: #fff;
-	width: 800px;
-	height: 1px;
-	margin-left: 100px;
-	margin-top: 6.5px;
+#years {}
+ 
+#years ul {
+   list-style:none;         /* keine Aufzählungspunkte */
+   padding-left: 295px;
+   padding-top: 37px;
+   padding-bottom: 9.696px;
+   padding-right: 300px;
+}
+ 
+#years li a { 
+   font-family: DINPro;
+   font-weight: normal;
+   font-size: 14pt;
+   color: black;
+   text-decoration: none;
+   margin: 12px 14px 13px 14px;
+} 
 
+.zweiteSpalte {
+	position: relative;
+	left: 63px;
+	top: -75px;
 }
 
-.Strich2 { 
-	hr{
-	border: none;
-	border-top: 1px solid;
-	color: rgb(31,80,128);
+.dritteSpalte {
+	position: relative;
+	left: 126px;
+	top: -150px;
+}
+
+.vierteSpalte {
+	position: relative;
+	left: 189px;
+	top: -225px;
+}
+
+.fuenfteSpalte {
+	position: relative;
+	left: 252px;
+	top: -300px;
+}
+
+.sechsteSpalte {
+	position: relative;
+	left: 315px;
+	top: -375px;
+}
+
+.siebteSpalte {
+	position: relative;
+	left: 378px;
+	top: -450px;
+}
+
+#years li a:hover { 
+   font-family: DINPro;
+   font-weight: normal;
+   font-size: 14pt;
+   color: rgb(31,80,128);
+   text-decoration: none;
+}
+
+/* Rahmen */
+
+#rectangle {
+	width: 560.5px;
+	height: 200px;
 	background-color: #fff;
-	width: 800px;
-	height: 1px;
-	margin-left: 170px;
-	margin-bottom: 6.5px;}
+	border-color: rgb(240,240,240);
+	border-radius: 12px;
 }
 
 /* TYPO */
@@ -117,8 +192,8 @@ h1 {
 	font-size: 48pt;
 	font-family: DINPro;
 	font-weight: normal;
-	padding-left: 200px;
-	padding-top: 52px;
+	padding-left: 195px;
+	padding-top: 42px;
 
 }
 
