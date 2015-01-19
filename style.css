@@ -70,7 +70,7 @@ body {
 
 .Strich2 {
 	border: none;
-	border-top: 0.75px solid;
+	border-top: 1px solid;
 	color: rgb(31,80,128);
 	background-color: none;
 	width: 970px;
@@ -112,18 +112,25 @@ body {
    color: rgb(31,80,128);
    text-decoration: none;
    padding: 4px 8px 4px 8px;
-} 
+}
+
+.clear {
+	clear: both;
+}
 
 /* Navigation Jahre*/
 
-#years {}
+#years {
+	padding-left: 340px;
+	padding-top: 50px;
+}
  
 #years ul {
    list-style:none;         /* keine Aufzählungspunkte */
-   padding-left: 335px;
+ /*  padding-left: 335px;
    padding-top: 37px;
    padding-bottom: 9.696px;
-   padding-right: 300px;
+   padding-right: 300px;*/
 }
  
 #years li a { 
@@ -135,40 +142,70 @@ body {
    margin: 12px 7.5px 13px 15px;
 } 
 
-.zweiteSpalte {
+
+/* Anstatt pos relative floaten */
+.ersteSpalte {
+	float: left;
+	/*
 	position: relative;
 	left: 59px;
 	top: -75px;
+	*/
+}
+.zweiteSpalte {
+	float: left;
+	/*
+	position: relative;
+	left: 59px;
+	top: -75px;
+	*/
 }
 
 .dritteSpalte {
+	float: left;
+	/*
 	position: relative;
 	left: 118px;
 	top: -150px;
+	*/
 }
 
 .vierteSpalte {
+	float: left;
+	/*
 	position: relative;
 	left: 177px;
 	top: -225px;
+	*/
 }
 
 .fuenfteSpalte {
+	
+	float: left;
+	/*
 	position: relative;
 	left: 236px;
 	top: -300px;
+	*/
 }
 
 .sechsteSpalte {
+	float: left;
+	/*
 	position: relative;
 	left: 295px;
 	top: -375px;
+	*/
+
 }
 
 .siebteSpalte {
+	float: left;
+	/*
 	position: relative;
 	left: 353px;
 	top: -450px;
+	*/
 }
 
 #years li a:hover { 
